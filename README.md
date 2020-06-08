@@ -1,24 +1,28 @@
-## Object Detection using Yolov3
+# Object Detection using Yolov3
 
-##### Pre-requisites
+### Pre-requisites
 
 ##### This project is written in Python 3.6.6 using Tensorflow (deep learning), NumPy (numerical computing), OpenCV (computer vision).
 
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 
-#### Downloading official pretrained weights
+### Downloading official pretrained weights
 
-#### Let's download official weights pretrained on COCO dataset.
+##### Let's download official weights pretrained on COCO dataset.
 
-wget -P weights https://pjreddie.com/media/files/yolov3.weights
+      wget -P weights https://pjreddie.com/media/files/yolov3.weights
 
 
-#### Running the model
+### Running the model
 
-#### Now you can run the model using objectDetection.py script. You can change the IoU (Intersection over Union) and confidence thresholds as per the requirements.
-python detect.py images 0.5 0.5 data/images/dog.jpg data/images/office.jpg
+##### Now you can run the model using objectDetection.py script. You can change the IoU (Intersection over Union) and confidence thresholds as per the requirements.
+##### Enter the below code in command prompt to see the results.
 
-#### The detections are saved in the detections folder.
+        python detect.py images 0.5 0.5 data/images/dog.jpg data/images/office.jpg
+
+### The detections are saved in the detections folder.
 
 #### The outputs are shown below.
+
+
