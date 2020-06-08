@@ -25,4 +25,4 @@
 
 #### The outputs are shown below.
 
-
+![alt text](https://github.com/deepaseb/yolov3/edit/master/data/Detected_Objects/DetectedImage.jpg)
