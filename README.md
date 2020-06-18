@@ -17,12 +17,6 @@
 ### Running the model
 
 ##### Now you can run the model using objectDetection.py script. You can change the IoU (Intersection over Union) and confidence thresholds as per the requirements.
-##### Enter the below code in command prompt to see the results.
 
-        python detect.py images 0.5 0.5 data/images/dog.jpg data/images/office.jpg
+##### The detections are saved in the data folder.
 
-### The detections are saved in the detections folder.
-
-#### The outputs are shown below.
-
-![alt text](https://github.com/deepaseb/yolov3/edit/master/data/Detected_Objects/DetectedImage.jpg)
