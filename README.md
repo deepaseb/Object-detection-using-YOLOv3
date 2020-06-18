@@ -16,7 +16,7 @@
 
 ### Running the model
 
-##### Now you can run the model using objectDetection.py script. You can change the IoU (Intersection over Union) and confidence thresholds as per the requirements.
+##### Now you can run the model and find the detections using objectDetection.py. You can change the IoU (Intersection over Union) and confidence thresholds as per the requirements.
 
 ##### The detections are saved in the data folder.
 
